@@ -1,0 +1,6 @@
+/* Custom CSS for the site. Tailwind is loaded via CDN, so only small overrides here. */
+html { scroll-behavior: smooth; }
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+/* Example utility - you can expand this file if you decide to use a local stylesheet */
+.container { max-width: 64rem; margin-left: auto; margin-right: auto; padding-left: 1rem; padding-right: 1rem; }
